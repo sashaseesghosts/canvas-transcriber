@@ -1,11 +1,39 @@
-.venv/
+# ── Python ────────────────────────────────────────────────────────────────────
 __pycache__/
-*.pyc
-session.json
-*.session.json
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ── Virtual environments ───────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+
+# ── Configuration / secrets ───────────────────────────────────────────────────
 .env
 .env.*
+!.env.example
+
+# ── canvas-transcriber runtime outputs ────────────────────────────────────────
+# These files contain your personal course data — never commit them.
+session.json
+*.session.json
 links_output.json
 transcripts/
 course_output/
+
+# ── Logs ──────────────────────────────────────────────────────────────────────
 *.log
+logs/
+
+# ── macOS / editor ────────────────────────────────────────────────────────────
+.DS_Store
+.idea/
+.vscode/
+*.swp

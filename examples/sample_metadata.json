@@ -1,0 +1,73 @@
+{
+  "total_videos": 4,
+  "transcripts_found": 3,
+  "videos": [
+    {
+      "title": "Module 1 Introduction",
+      "source_url": "https://<school>.instructure.com/courses/<course-id>/external_tools/retrieve?...",
+      "provider": "kaltura",
+      "module_name": "Module 1: Introduction",
+      "link_type": "iframe",
+      "transcript_found": true,
+      "transcript_source_type": "kaltura_api_caption",
+      "transcript_candidate_source": "kaltura_API",
+      "transcript_validation_passed": true,
+      "rejection_reason": null,
+      "transcript_path": "Module_1_Introduction/Module 1 Introduction.txt",
+      "transcript_preview": "Welcome to Module 1. In this module we will cover the fundamentals of ...",
+      "kaltura_entry_id": "<entry-id-1>",
+      "errors": []
+    },
+    {
+      "title": "What is Big Data?",
+      "source_url": "https://<school>.instructure.com/courses/<course-id>/external_tools/retrieve?...",
+      "provider": "kaltura",
+      "module_name": "Module 1: Introduction",
+      "link_type": "iframe",
+      "transcript_found": true,
+      "transcript_source_type": "kaltura_api_caption",
+      "transcript_candidate_source": "kaltura_late_API",
+      "transcript_validation_passed": true,
+      "rejection_reason": null,
+      "transcript_path": "Module_1_Introduction/What is Big Data.txt",
+      "transcript_preview": "Big data refers to data sets that are too large or complex to be processed ...",
+      "kaltura_entry_id": "<entry-id-2>",
+      "errors": []
+    },
+    {
+      "title": "Module 2 Introduction",
+      "source_url": "https://<school>.instructure.com/courses/<course-id>/external_tools/retrieve?...",
+      "provider": "kaltura",
+      "module_name": "Module 2: Core Concepts",
+      "link_type": "iframe",
+      "transcript_found": true,
+      "transcript_source_type": "kaltura_api_caption",
+      "transcript_candidate_source": "kaltura_API",
+      "transcript_validation_passed": true,
+      "rejection_reason": null,
+      "transcript_path": "Module_2_Core_Concepts/Module 2 Introduction.txt",
+      "transcript_preview": "Welcome to Module 2. This module builds on the concepts introduced in ...",
+      "kaltura_entry_id": "<entry-id-3>",
+      "errors": []
+    },
+    {
+      "title": "Deep Dive — Topic A",
+      "source_url": "https://<school>.instructure.com/courses/<course-id>/external_tools/retrieve?...",
+      "provider": "kaltura",
+      "module_name": "Module 2: Core Concepts",
+      "link_type": "iframe",
+      "transcript_found": false,
+      "transcript_source_type": null,
+      "transcript_candidate_source": null,
+      "transcript_validation_passed": false,
+      "rejection_reason": null,
+      "transcript_path": null,
+      "transcript_preview": null,
+      "kaltura_entry_id": "<entry-id-4>",
+      "errors": [
+        "No caption_captionasset/getUrl intercepted",
+        "No transcript found via UI fallback"
+      ]
+    }
+  ]
+}

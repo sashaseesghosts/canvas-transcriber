@@ -1,0 +1,56 @@
+{
+  "page_url": "https://<school>.instructure.com/courses/<course-id>/modules",
+  "page_title": "Course Modules: Example Course",
+  "total_links": 6,
+  "video_links_count": 4,
+  "links": [
+    {
+      "text": "Module 1 Introduction",
+      "href": "https://<school>.instructure.com/courses/<course-id>/external_tools/retrieve?borderless=1&url=https://<kaltura-host>/browseandembed/index/media/entryid/<entry-id-1>/...",
+      "link_type": "iframe",
+      "video_provider": "kaltura",
+      "module_name": "Module 1: Introduction",
+      "canvas_item_text": "Module 1 Introduction"
+    },
+    {
+      "text": "What is Big Data?",
+      "href": "https://<school>.instructure.com/courses/<course-id>/external_tools/retrieve?borderless=1&url=https://<kaltura-host>/browseandembed/index/media/entryid/<entry-id-2>/...",
+      "link_type": "iframe",
+      "video_provider": "kaltura",
+      "module_name": "Module 1: Introduction",
+      "canvas_item_text": "What is Big Data?"
+    },
+    {
+      "text": "External lecture clip",
+      "href": "https://www.youtube.com/watch?v=<video-id>",
+      "link_type": "anchor",
+      "video_provider": "youtube",
+      "module_name": "Module 1: Introduction",
+      "canvas_item_text": "External lecture clip"
+    },
+    {
+      "text": "Module 2 Introduction",
+      "href": "https://<school>.instructure.com/courses/<course-id>/external_tools/retrieve?borderless=1&url=https://<kaltura-host>/browseandembed/index/media/entryid/<entry-id-3>/...",
+      "link_type": "iframe",
+      "video_provider": "kaltura",
+      "module_name": "Module 2: Core Concepts",
+      "canvas_item_text": "Module 2 Introduction"
+    },
+    {
+      "text": "Deep Dive — Topic A",
+      "href": "https://<school>.instructure.com/courses/<course-id>/external_tools/retrieve?borderless=1&url=https://<kaltura-host>/browseandembed/index/media/entryid/<entry-id-4>/...",
+      "link_type": "iframe",
+      "video_provider": "kaltura",
+      "module_name": "Module 2: Core Concepts",
+      "canvas_item_text": "Deep Dive — Topic A"
+    },
+    {
+      "text": "Syllabus Quiz",
+      "href": "https://<school>.instructure.com/courses/<course-id>/quizzes/<quiz-id>",
+      "link_type": "anchor",
+      "video_provider": null,
+      "module_name": "Course Information",
+      "canvas_item_text": "Syllabus Quiz"
+    }
+  ]
+}
