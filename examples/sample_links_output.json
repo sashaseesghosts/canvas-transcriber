@@ -2,7 +2,7 @@
   "page_url": "https://<school>.instructure.com/courses/<course-id>/modules",
   "page_title": "Course Modules: Example Course",
   "total_links": 6,
-  "video_links_count": 4,
+  "video_links_count": 5,
   "links": [
     {
       "text": "Module 1 Introduction",

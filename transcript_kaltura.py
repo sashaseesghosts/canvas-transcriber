@@ -94,7 +94,7 @@ def sanitize_filename(text: str) -> str:
     """Return a filesystem-safe filename stem (no extension) from *text*."""
     if not text:
         return "untitled_video"
-    text = re.sub(r'[<>:"/\\|?*]', "", text)
+    text = re.sub(r'[<>:"/\\|?*]', " ", text)
     text = text.strip()[:100]
     return text or "untitled_video"
 
