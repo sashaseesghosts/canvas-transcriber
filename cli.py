@@ -257,9 +257,11 @@ def cmd_extract_video(
 
         page.close()
 
-        # Write metadata — omit full transcript_text to keep the file compact
+        # Write metadata — omit transcript_text (large) and
+        # transcript_candidate_selector (may contain signed serve URLs with auth tokens)
+        _METADATA_OMIT = {"transcript_text", "transcript_candidate_selector"}
         meta_videos = [
-            {k: v for k, v in r.items() if k != "transcript_text"}
+            {k: v for k, v in r.items() if k not in _METADATA_OMIT}
             for r in results
         ]
         metadata = {
